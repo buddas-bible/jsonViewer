@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\INI">
+      <UniqueIdentifier>{09e660ad-843c-4454-9212-9fc7f08672d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\JSON">
+      <UniqueIdentifier>{553d1a36-f9b9-4d14-8ddb-34782a6918ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Input">
+      <UniqueIdentifier>{3cd74d2b-9e18-4a76-8840-1374490463fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="JSON_Reader.cpp">
+      <Filter>소스 파일\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="INI_Reader.cpp">
+      <Filter>소스 파일\INI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>소스 파일\Input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="JSON_Reader.h">
+      <Filter>소스 파일\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="INI_Reader.h">
+      <Filter>소스 파일\INI</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>소스 파일\Input</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
